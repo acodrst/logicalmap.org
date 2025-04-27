@@ -42,12 +42,12 @@
       };
       reader.readAsText(file);
     })
-    import { model_to_dots } from "https://cdn.jsdelivr.net/npm/text-model-dot@1.0.13/text-model-dot.min.js";
+    import { model_to_dots } from "https://cdn.jsdelivr.net/npm/text-model-dot@1.0.14/text-model-dot.min.js";
     import { gsdot_svg } from "https://cdn.jsdelivr.net/npm/gsdot-svg@1.0.9/dist/gsdot-svg.bundle.js"
     import fileSaver from 'https://cdn.jsdelivr.net/npm/file-saver@2.0.5/+esm'
     const gs_ta = document.getElementById("gs_txt")
     if (localStorage.getItem('gs_map') === null)
-    localStorage.setItem('gs_map', await (await fetch("https://cdn.jsdelivr.net/npm/text-model-dot@1.0.12/data_material_large.txt")).text())
+    localStorage.setItem('gs_map', await (await fetch("https://cdn.jsdelivr.net/npm/text-model-dot@1.0.14/data_material_large.txt")).text())
     if (localStorage.getItem('gs_level') === null)
       localStorage.setItem('gs_level', globalThis.location.hash.substring(1))
     function update_levels(kind) {
