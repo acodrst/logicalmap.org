@@ -1,4 +1,6 @@
+node_modules/**
 .*
 !.gitignore
+site.txt
 *.backup
 *~

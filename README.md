@@ -1,1 +1,1 @@
-Serve locally with npx http-server, or any other local HTTP server.
+Live logical map with edit/save
